@@ -1,0 +1,133 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+    background-color: #f4f5f7;
+    /* height: 100%; */
+    font-family: 'neogramextrabold',Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: 'neogramextrabold';
+  src: url('neogram_extrabold-webfont.woff2') format('woff2'),
+       url('neogram_extrabold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+.sidebar {
+    height: 100%;
+    width: 110px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#fafafa;
+    overflow-x: hidden;
+    box-shadow: 18px 1px  25px #dadbdd;
+}
+
+.hed{
+    height: 110px;  
+    width: 100wh;
+    background-color: #ffffff;
+}
+
+.all{
+    width: 100wh;
+    height: 100vh;
+  }
+
+#first{
+    height: 110px;
+    width: 110px;
+    border-bottom: 3px solid #f7f7f7;
+  }
+
+#active{
+    background-color: #d0e0ed;
+    border-left: 3px solid #376fcc;
+    color: #1a2a3a;
+  }
+  
+.sidebar a {
+    text-align: center;
+    height: 85px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #8b959d;
+    display: block;
+}
+
+.sec {
+    float: right;
+    top:0;
+    right: 0;
+    flex: 1 1 auto;
+    height: 600px;
+    width: 90%;
+    background-color: #f4f5f7;
+}
+
+#vid{
+   color: #85929a;
+   display: inline;
+   font-size: 17px;
+ }
+
+.fa-play{
+  color: #85929a;
+}
+
+.iuh{
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 68px;
+  width: 80%;
+}
+
+.ubox{
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  padding-top: 22px;
+  border-radius: 2px;
+  background-color: #fafafa;
+}
+
+.form-rounded{
+  border-radius: 15px;
+  width: 100%;
+  height: 35px;
+  border: none;
+  background-color: #fafafa;
+}
+
+input{
+  color: #898989;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+#or{
+  text-align: left;
+  font-weight: 800;
+}
+
+.right{
+  width: 40%;
+  height: 300px;
+  padding-top: 31px;
+}
+
+.left{
+  float: right;
+  width: 52%;
+  padding-top: 23px;
+}
+
+@media screen and (max-height: 450px){
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
